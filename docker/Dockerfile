@@ -1,4 +1,5 @@
-FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+#FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:12.0.1-cudnn8-devel-ubuntu18.04
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV LC_ALL=C.UTF-8
 
